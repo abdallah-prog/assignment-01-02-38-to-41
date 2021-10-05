@@ -1,0 +1,47 @@
+/*assignment 01/33-41*/
+.one,
+.two ,
+.three{
+  width: 100px;
+    height: 100px;
+    background-color: #eee;
+   
+    border: 2px solid black;
+    float: left;
+    margin: 10px;
+    margin-left: 50px;
+    text-align: center;
+    counter-increment: count;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: -13px -7px magenta, 11px 9px blue;
+}
+
+div::after{
+content: counter(count);
+width: 20px;
+height: 20px;
+background-color: black;
+color: white;
+top: -12%;
+position: absolute;
+left: 42px;
+ border-radius: 10px;
+}
+
+p{
+  line-height: 4;
+  text-transform: capitalize;
+}
+
+/*assignment 02/33-41*/
+.four{
+  width:100px;
+  height: 100px;
+  background-color: #eee;
+  border-radius: 8px 37px;
+  border-top-left-radius: 9px 26px;
+  box-shadow: 0px 0px 16px -2px inset;
+  border-bottom-right-radius: 9px 26px;
+}
+
